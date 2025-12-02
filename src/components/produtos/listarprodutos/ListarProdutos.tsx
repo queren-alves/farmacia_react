@@ -1,5 +1,5 @@
 ﻿import { useEffect, useState } from 'react'
-import { PacmanLoader, SyncLoader } from 'react-spinners'
+import { SyncLoader } from 'react-spinners'
 import type Produto from '../../../models/Produto'
 import { listar } from '../../../services/Service'
 import CardProdutos from '../cardprodutos/CardProdutos'
