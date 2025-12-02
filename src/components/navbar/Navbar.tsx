@@ -47,7 +47,7 @@ function Navbar() {
 					    Categorias
                     </Link>
 
-                    <Link to="/cadastrocategoria" className="text-white hover:text-red-500 cursor-pointer transition">
+                    <Link to="/cadcategoria" className="text-white hover:text-red-500 cursor-pointer transition">
 					    Cadastrar categoria
                     </Link>
 
