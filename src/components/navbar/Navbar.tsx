@@ -6,7 +6,7 @@ function Navbar() {
 		<div className="w-full bg-indigo-900 text-slate-800 shadow-sm sticky top-0 z-50">
 			<div className="container mx-auto flex flex-wrap items-center justify-between py-4 px-8 gap-4">
 				
-				<Link to="/" className="cursor-pointer">
+				<Link to="/home" className="cursor-pointer">
 					<img
 						src="https://i.imgur.com/kvYH7pb.png"
 						alt="Logo da Farmácia"
