@@ -1,9 +1,11 @@
+import ListarProdutos from "../../components/produtos/listarprodutos/ListarProdutos"
+import ModalProduto from "../../components/produtos/modalprodutos/ModalProduto"
+
 function Home() {
 	return (
 		<>
 			<div className="bg-cyan-100 flex justify-center min-h-[70vh]">
 				<div className="container grid grid-cols-2 text-slate-800">
-
 					<div className="flex flex-col gap-4 items-center justify-center py-10">
 						<h2 className="text-5xl font-semibold">
 							Seja Bem Vindo(a)!
@@ -14,7 +16,7 @@ function Home() {
 						</p>
 
 						<div className="flex justify-around gap-4">
-							{/* modal */}
+							<ModalProduto />
 						</div>
 					</div>
 
@@ -27,6 +29,7 @@ function Home() {
 					</div>
 				</div>
 			</div>
+			<ListarProdutos />
 		</>
 	)
 }

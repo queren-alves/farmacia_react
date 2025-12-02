@@ -11,19 +11,19 @@ function Footer() {
                 <p className='text-base text-center md:text-xl'>© {data} Farmácia. Todos direitos reservados.</p>
                 <p className='text-sm text-center md:text-lg'>Acesse nossas redes sociais</p>
                 <div className='flex flex-wrap justify-center gap-2'>
-                    <a href="#" target="_blank" className="flex items-center" rel="noopener noreferrer">
+                    <a href="#" className="flex items-center" rel="noopener noreferrer">
                         <span className="flex items-center justify-center w-10 h-10">
-                            <LinkedinLogoIcon size={28} weight='bold' />
+                            <LinkedinLogoIcon size={28} />
                         </span>
                     </a>
-                    <a href="#" target="_blank" className="flex items-center" rel="noopener noreferrer">
+                    <a href="#" className="flex items-center" rel="noopener noreferrer">
                         <span className="flex items-center justify-center w-10 h-10">
-                            <InstagramLogoIcon size={28} weight='bold' />
+                            <InstagramLogoIcon size={28} />
                         </span>
                     </a>
-                    <a href="#" target="_blank" className="flex items-center" rel="noopener noreferrer">
+                    <a href="#" className="flex items-center" rel="noopener noreferrer">
                         <span className="flex items-center justify-center w-10 h-10">
-                            <FacebookLogoIcon size={28} weight='bold' />
+                            <FacebookLogoIcon size={28}  />
                         </span>
                     </a>
                 </div>
